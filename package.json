@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.24.0",
+    "fastify": "^3.22.1",
+    "fastify-static": "^4.4.2",
+    "influx": "^5.9.2",
+    "node-schedule": "^2.0.0",
+    "xml2js": "^0.4.23"
+  }
+}

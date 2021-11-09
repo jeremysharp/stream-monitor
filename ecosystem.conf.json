@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "api",
+      "script": "api/index.js",
+      "watch": ["api/*", "client/dist"]
+    },
+    { "name": "service", "script": "service/index.js", "watch": "service/*" }
+  ]
+}

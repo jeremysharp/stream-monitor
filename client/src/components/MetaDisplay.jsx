@@ -22,6 +22,11 @@ function DisplayMeta({ meta }) {
         <span className={styles.big}>{meta.listeners}</span>
       </p>
       <p className={styles.item}>
+        <span className={styles.field}>Now Playing</span>
+        <br />
+        {meta.nowPlaying}
+      </p>
+      <p className={styles.item}>
         <span className={styles.field}>Current Throughput</span>
         <br />
         {meta.kbs} Kb/s
